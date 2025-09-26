@@ -106,8 +106,15 @@ section {
     margin-top: 100px;
 }
 
-.section-main-wrap {
+@media only screen and (max-width: 700px) {
+    .section-main-wrap {
     height: calc(100vh - 159px);
+    }
+}
+@media only screen and (max-width: 365px) {
+    #section-our-partners-v2__row__block3 img {
+        width: 100%;
+    }
 }
 
 .section-main {
